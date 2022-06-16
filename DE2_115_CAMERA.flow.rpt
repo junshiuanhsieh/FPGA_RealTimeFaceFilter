@@ -1,0 +1,143 @@
+Flow report for DE2_115_CAMERA
+Fri Jun 10 13:53:12 2022
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Jun 10 13:52:50 2022       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; DE2_115_CAMERA                              ;
+; Top-level Entity Name              ; DE2_115_CAMERA                              ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE115F29C7                               ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 13,763 / 114,480 ( 12 % )                   ;
+;     Total combinational functions  ; 13,328 / 114,480 ( 12 % )                   ;
+;     Dedicated logic registers      ; 1,756 / 114,480 ( 2 % )                     ;
+; Total registers                    ; 1756                                        ;
+; Total pins                         ; 428 / 529 ( 81 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 2,312,016 / 3,981,312 ( 58 % )              ;
+; Embedded Multiplier 9-bit elements ; 7 / 532 ( 1 % )                             ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/10/2022 13:49:42 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DE2_115_CAMERA      ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                              ;
++-------------------------------------+--------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                                        ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+--------------------------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 228800469099510.165484018218792                              ; --            ; --          ; --         ;
+; ENABLE_SIGNALTAP                    ; On                                                           ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                           ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; rs232_qsys/synthesis/../rs232_qsys.cmp                       ; --            ; --          ; --         ;
+; MISC_FILE                           ; rs232_qsys/synthesis/../../rs232_qsys.qsys                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; v/sdram_pll.bsf                                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; v/sdram_pll.ppf                                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; v/Line_Buffer1.bsf                                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; sram_fuck_bb.v                                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; sram_rs232_bb.v                                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; pic2_rom_bb.v                                                ; --            ; --          ; --         ;
+; MISC_FILE                           ; pic3_rom_bb.v                                                ; --            ; --          ; --         ;
+; MISC_FILE                           ; test2port_bb.v                                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; eyeball_bb.v                                                 ; --            ; --          ; --         ;
+; MISC_FILE                           ; sunglasses_bb.v                                              ; --            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; 8                                                            ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                                                     ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                        ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                       ; --            ; --          ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                          ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                        ; --            ; --          ; --         ;
+; SLD_FILE                            ; rs232_qsys/synthesis/rs232_qsys.debuginfo                    ; --            ; --          ; --         ;
+; SLD_INFO                            ; QSYS_NAME rs232_qsys HAS_SOPCINFO 1 GENERATION_ID 1654331511 ; --            ; rs232_qsys  ; --         ;
+; SOPCINFO_FILE                       ; rs232_qsys/synthesis/../../rs232_qsys.sopcinfo               ; --            ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                           ; --            ; --          ; --         ;
+; USE_SIGNALTAP_FILE                  ; stp2.stp                                                     ; --            ; --          ; --         ;
++-------------------------------------+--------------------------------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:52     ; 1.1                     ; 5090 MB             ; 00:01:01                           ;
+; Fitter                    ; 00:02:00     ; 5.0                     ; 6391 MB             ; 00:04:33                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 4813 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:20     ; 2.3                     ; 5210 MB             ; 00:00:21                           ;
+; Total                     ; 00:03:22     ; --                      ; --                  ; 00:06:00                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-9D91HT1  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-9D91HT1  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-9D91HT1  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-9D91HT1  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off DE2_115_CAMERA -c DE2_115_CAMERA
+quartus_fit --read_settings_files=off --write_settings_files=off DE2_115_CAMERA -c DE2_115_CAMERA
+quartus_asm --read_settings_files=off --write_settings_files=off DE2_115_CAMERA -c DE2_115_CAMERA
+quartus_sta DE2_115_CAMERA -c DE2_115_CAMERA
+
+
+

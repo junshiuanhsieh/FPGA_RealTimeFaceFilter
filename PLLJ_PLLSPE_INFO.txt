@@ -1,0 +1,10 @@
+PLL_Name	rs232_qsys:comb_244|rs232_qsys_altpll_0:altpll_0|rs232_qsys_altpll_0_altpll_m342:sd1|pll7
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	sdram_pll:u6|altpll:altpll_component|altpll_f423:auto_generated|pll1
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+

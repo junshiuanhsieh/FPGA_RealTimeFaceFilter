@@ -1,0 +1,8 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Filter_tran:filter|lpm_mult:Mult1|mult_obt:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Filter_tran:filter|lpm_mult:Mult2|mult_cat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Filter_tran:filter|lpm_mult:Mult0|mult_obt:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,Filter_tran:filter|lpm_mult:Mult3|mult_obt:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,Filter_tran:filter|lpm_mult:Mult1|mult_obt:auto_generated|mac_mult1,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,Filter_tran:filter|lpm_mult:Mult0|mult_obt:auto_generated|mac_mult1,
+PORT_SWAPPING,PORT_SWAP_TYPE_DSPMULT,Filter_tran:filter|lpm_mult:Mult3|mult_obt:auto_generated|mac_mult1,

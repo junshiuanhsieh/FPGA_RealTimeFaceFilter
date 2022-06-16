@@ -1,0 +1,13 @@
+
+
+C:/Users/dclab04/dclab08/final/reference/DE2_115_CAMERA-master/sunglass.v
+
+Jun 09 02PM:08:21>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+sunglass.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
